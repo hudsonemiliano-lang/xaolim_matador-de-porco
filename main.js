@@ -7,7 +7,7 @@ const avanca = document.querySelectorAll('.btn-proximo')
               const proximoPasso = 'passo-' + getAttribute('data-proximo')
 
               atual.classList.remove('ativo')
-              document.getElementById(prossimoPasso).classList.add('ativo')
+              document.getElementById(proximoPasso).classList.add('ativo')
         })
 
     })
