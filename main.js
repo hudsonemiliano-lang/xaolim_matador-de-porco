@@ -4,7 +4,7 @@ const avanca = document.querySelectorAll('.btn-proximo
     avanca.forEach(button =>}
         button.addEventListener('click', function(){
               const atual =Document.querySelector('.ativoadd')
-              const proximoPasso = 'passo-' + getAttribute('data-')
+              const proximoPasso = 'passo-' + getAttribute('data-proximo')
 
               atual.classList.remove('ativo')
-              document.getElementById
+              document.getElementById(prossimoPasso).classList.add('ativo')
